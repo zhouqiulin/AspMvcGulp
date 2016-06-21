@@ -1,0 +1,39 @@
+{
+  "name": "mygulp",
+  "version": "1.0.0",
+  "description": "this is my common gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouqiulin/MyGulp.git"
+  },
+  "keywords": [
+    "zql",
+    "mygulp"
+  ],
+  "author": "zql",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhouqiulin/Gulp/issues"
+  },
+  "homepage": "https://github.com/zhouqiulin/Gulp#readme",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bom": "^1.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-less": "^3.0.5",
+    "gulp-minify-cshtml": "0.0.1",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-collector": "^1.0.2",
+    "gulp-sequence": "^0.4.5",
+    "gulp-uglify": "^1.5.1",
+    "run-sequence": "^1.2.1"
+  }
+}
